@@ -1,0 +1,23 @@
+import React from 'react'
+import '../css/Post.css'
+import Avatar from "@material-ui/core/Avatar"
+
+function Post({username,caption,imageUrl}) {
+    return (
+        <div className="post">
+            <div className="post__header">
+                    <Avatar 
+                    className="post_avatar"
+                    alt="souamk"
+                    src="www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200"/>
+                      <h3>{username}</h3>
+            </div>
+           
+          
+            <img className="post__image"src={imageUrl} alt=""/>
+    <h4 className="post__text"><strong>{username} </strong>{caption}</h4>
+        </div>
+    )
+}
+
+export default Post

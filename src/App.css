@@ -1,0 +1,19 @@
+.App{
+  background-color: #fafafa;
+  height: 100vh;
+
+}
+.App__header{
+  object-fit: contain;
+  background-color:white;
+  padding: 20px;
+  border-bottom: 1px solid lightgrey;
+}
+.post__header{
+  display:flex;
+  align-items: center;
+  padding: 20px;
+}
+.post_avatar{
+  margin-right: 10px;
+}
