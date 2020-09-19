@@ -1,6 +1,6 @@
-##Instagram Clone
+## Instagram Clone
 
-Fully Functional E-Commerce Website wiht Stripe Payment.
+Instagram clone with realtime post comment authentication 
 
 Live Website: https://whats-app-clone-8fb89.web.app/
 
