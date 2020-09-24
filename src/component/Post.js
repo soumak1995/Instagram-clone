@@ -10,7 +10,7 @@ function Post({postId,username,caption,imageUrl,user}) {
     const[comment,setComment]=useState('')
      console.log(comments)
     useEffect(() => {
-        alert(postId)
+       
         let unsubscribe;
      if(postId){
          unsubscribe=db
@@ -49,9 +49,9 @@ function Post({postId,username,caption,imageUrl,user}) {
             </div>
            
           
-            <img className="post__image"src={imageUrl} alt="soumak"/>
-    <h4 className="post__text"><strong>{username} </strong>{caption}</h4>
-    <div className="post__comments">
+              <img className="post__image"src={imageUrl} alt="soumak"/>
+             <h4 className="post__text"><strong>{username} </strong>{caption}</h4>
+             <div className="post__comments">
         {
             comments.map(comment=>(
             <p><strong>{comment.username}</strong>
